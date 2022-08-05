@@ -1,0 +1,75 @@
+/* 登録ページ regist.php */
+
+#regist h1 {
+    text-align: center;
+}
+
+#regist .form {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#regist .form .text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#regist .form .text2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#regist .form .hissu {
+    text-align: center;
+    color: #fb0000e8;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#regist .form .street input {
+    width: 300px;
+}
+
+#regist .form .btn-regist-center {
+    text-align: center;
+}
+
+#regist .form .btn-regist-center .btn-regist {
+    cursor: pointer;
+    display: block;
+    width: 180px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    font-family: Meiryo;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/btn_bg3.png") no-repeat 0 0;
+    background-size: 100% auto;
+}
+
+#regist .regist__footer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#regist .regist__footer .title {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#regist .regist__footer .text {
+    font-weight: bold;
+    margin-inline: 0px;
+    font-size: 11px;
+}
+
+#regist .img {
+    display: block;
+    margin: auto;
+}

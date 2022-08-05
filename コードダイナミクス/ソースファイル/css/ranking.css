@@ -1,0 +1,231 @@
+/* @font-face {
+    font-family: 'ＪＫゴシックＭ';
+    src: url("../font/JKG-M_3.ttf");
+} */
+
+#ranking {
+    height: 100%;
+    font-family: 'ＪＫゴシックＭ';
+}
+
+#ranking .frame {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#ranking .frame .ranking_top {
+    text-align: center;
+    margin: auto;
+}
+
+#ranking .frame .ranking_top p {
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 350%;
+    color: white;
+    text-shadow: black 2px 0px, black -2px 0px, black 0px -2px, black 0px 2px, black 2px 2px, black -2px 2px, black 2px -2px, black -2px -2px, black 1px 2px, black -1px 2px, black 1px -2px, black -1px -2px, black 2px 1px, black -2px 1px, black 2px -1px, black -2px -1px;
+    position: absolute;
+    width: 360px;
+    height: 88px;
+    padding-top: 40px;
+}
+
+#ranking .frame .ranking_top img {
+    width: 60%;
+}
+
+#ranking .frame .ranking_top_level {
+    text-align: center;
+    margin: 0px auto;
+}
+
+#ranking .frame .ranking_top_level .ranking_ez {
+    margin: auto;
+    /* font-family: "ＪＫゴシックＭ"; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+    color: blue;
+    position: absolute;
+    width: 360px;
+    height: auto;
+    padding-top: 30px;
+}
+
+#ranking .frame .ranking_top_level .ranking_hard {
+    margin: auto;
+    /* font-family: "ＭＳ 明朝"; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+    color: red;
+    position: absolute;
+    width: 360px;
+    height: auto;
+    padding-top: 30px;
+    text-shadow: black 1.5px 0px, black -1.5px 0px, black 0px -1.5px, black 0px 1.5px, black 1.5px 1.5px, black -1.5px 1.5px, black 1.5px -1.5px, black -1.5px -1.5px, black 0.5px 1.5px, black -0.5px 1.5px, black 0.5px -1.5px, black -0.5px -1.5px, black 1.5px 0.5px, black -1.5px 0.5px, black 1.5px -0.5px, black -1.5px -0.5px;
+}
+
+#ranking .frame .ranking_top_level img {
+    width: 360px;
+    height: auto;
+}
+
+#ranking .frame .my_score {
+    margin: auto;
+}
+
+#ranking .frame .my_score div {
+    display: inline-block;
+    /* margin */
+}
+
+#ranking .frame .my_score .text p {
+    margin: 15px auto;
+    margin-left: 30px;
+}
+
+#ranking .frame .my_score .var p {
+    margin: 15px auto;
+    margin-right: 30px;
+}
+
+#ranking .frame .my_score .text {
+    text-align: left;
+    margin: auto;
+    /* font-family: "Segoe UI"; */
+    font-weight: bold;
+    font-size: 215%;
+    color: yellow;
+    text-shadow: black 2px 0px, black -2px 0px, black 0px -2px, black 0px 2px, black 2px 2px, black -2px 2px, black 2px -2px, black -2px -2px, black 1px 2px, black -1px 2px, black 1px -2px, black -1px -2px, black 2px 1px, black -2px 1px, black 2px -1px, black -2px -1px;
+    width: 360px;
+    height: auto;
+    padding-bottom: 5px;
+    position: absolute;
+}
+
+#ranking .frame .my_score .var {
+    text-align: right;
+    margin: auto;
+    /* font-family: "Segoe UI"; */
+    font-weight: bold;
+    font-size: 215%;
+    color: yellow;
+    text-shadow: black 2px 0px, black -2px 0px, black 0px -2px, black 0px 2px, black 2px 2px, black -2px 2px, black 2px -2px, black -2px -2px, black 1px 2px, black -1px 2px, black 1px -2px, black -1px -2px, black 2px 1px, black -2px 1px, black 2px -1px, black -2px -1px;
+    width: 360px;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+#ranking .frame .ranking {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#ranking .frame .ranking img {
+    width: 90%;
+}
+
+#ranking .frame .ranking p {
+    margin: auto;
+    /* font-family: "Segoe UI"; */
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    padding-top: 125px;
+}
+
+#ranking .frame .ranking .top_rank {
+    z-index: 1;
+    font-size: 230%;
+    line-height: 135%;
+    position: absolute;
+    text-align: left;
+    left: 60px;
+    color: yellow;
+    text-shadow: black 2px 0px, black -2px 0px, black 0px -2px, black 0px 2px, black 2px 2px, black -2px 2px, black 2px -2px, black -2px -2px, black 1px 2px, black -1px 2px, black 1px -2px, black -1px -2px, black 2px 1px, black -2px 1px, black 2px -1px, black -2px -1px;
+}
+
+#ranking .frame .ranking .top_name {
+    z-index: 0;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    line-height: 205%;
+    font-size: 150%;
+    color: black;
+}
+
+#ranking .frame .ranking .top_score {
+    z-index: 1;
+    position: absolute;
+    text-align: right;
+    right: 55px;
+    line-height: 205%;
+    font-size: 150%;
+    color: #00ff00;
+    /* font-family: "HG創英角ﾎﾟｯﾌﾟ体"; */
+    text-shadow: black 1px 0px, black -1px 0px, black 0px -1px, black 0px 1px, black 1px 1px, black -1px 1px, black 1px -1px, black -1px -1px, black 0.5px 1px, black -0.5px 1px, black 0.5px -1px, black -0.5px -1px, black 1px 0.5px, black -1px 0.5px, black 1px -0.5px, black -1px -0.5px;
+}
+
+#ranking .frame .ranking_footer .move {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#ranking .frame .ranking_footer .move .move_ranking_hard {
+    /* position: absolute; */
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    width: 135px;
+    height: 42px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    color: red;
+    background: url("../img/level_select_ranking/ranking-hard.png") no-repeat 0 0;
+    background-size: 100% auto;
+    text-shadow: black 1px 0px, black -1px 0px, black 0px -1px, black 0px 1px, black 1px 1px, black -1px 1px, black 1px -1px, black -1px -1px, black 0.5px 1px, black -0.5px 1px, black 0.5px -1px, black -0.5px -1px, black 1px 0.5px, black -1px 0.5px, black 1px -0.5px, black -1px -0.5px;
+    font-family: 'ＪＫゴシックＭ';
+}
+
+#ranking .frame .ranking_footer .move .move_ranking_ez {
+    /* position: absolute; */
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    width: 135px;
+    height: 42px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    color: blue;
+    background: url("../img/level_select_ranking/ranking-easy.png") no-repeat 0 0;
+    background-size: 100% auto;
+    font-family: 'ＪＫゴシックＭ';
+}
+
+#ranking .frame .ranking_footer .back_level_select {
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    width: 70%;
+    height: auto;
+}
+
+#ranking .frame .ranking_footer {
+    margin: 0 auto;
+}
+
+#ranking .frame .ranking_footer a {
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+}

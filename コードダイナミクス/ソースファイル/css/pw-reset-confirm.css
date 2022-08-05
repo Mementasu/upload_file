@@ -1,0 +1,49 @@
+#pw-reset-confirm .frame .form {
+    text-align: center;
+}
+
+#pw-reset-confirm .frame .form .header {
+    margin: 16px auto;
+}
+
+#pw-reset-confirm .frame .form .box {
+    position: relative;
+}
+
+#pw-reset-confirm .frame .form .box .bg {
+    position: relative;
+    width: 350px;
+    padding: 5px
+}
+
+#pw-reset-confirm .frame .form .box .text {
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    right: 0px;
+    font-weight: bold;
+    font-size: 16px
+}
+
+#pw-reset-confirm .frame .form .btn-reset-center {
+    margin: 60px auto 180px;
+}
+
+#pw-reset-confirm .frame .form .btn-reset-center .btn-top {
+    margin-top: 10%;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    width: 180px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    font-family: Meiryo;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/btn_bg3.png") no-repeat 0 0;
+    background-size: 100% auto;
+}
