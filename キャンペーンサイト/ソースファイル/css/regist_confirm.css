@@ -1,0 +1,51 @@
+#regist_confirm .frame .form .registTop {
+    text-align: center;
+}
+
+#regist_confirm .frame .form .box {
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+}
+
+#regist_confirm .frame .form .main .animal {
+    position: absolute;
+    width: 250px;
+    left: 50%;
+    top: 260px;
+    margin-left: -125px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: -200px;
+}
+
+#regist_confirm .frame .form .main .texts {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 170px;
+    margin-left: -125px;
+}
+
+#regist_confirm .frame .form .btn-regist-confirm-center .btn-top {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 160px;
+    left: 50%;
+    top: 85%;
+    height: 60px;
+    border: none;
+    text-align: center;
+    font-family: Meiryo;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: -80px;
+    margin-right: auto;
+    background: url("../img/btn_bg3.png") no-repeat 0 0;
+    background-size: 100% auto;
+}

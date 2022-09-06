@@ -1,0 +1,91 @@
+#pincode .frame .form .header {
+    text-align: center;
+}
+
+#pincode .frame .form .box {
+    position: relative;
+}
+
+#pincode .frame .form .box .bg {
+    position: relative;
+    width: 350px;
+    padding: 5px
+}
+
+#pincode .frame .form .box .box_text {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 6%;
+    font-weight: bolder;
+    font-size: 13px
+}
+
+#pincode .frame .form .box .box_text2 {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 6%;
+    font-weight: bold;
+    font-size: 18px
+}
+
+#pincode .frame .form .form-group .input_box {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#pincode .frame .form .form-group .pinCode {
+    font-weight: bolder;
+    font-size: 18px;
+    height: 30px;
+}
+
+#pincode .frame .form .sita {
+    margin-top: 40%
+}
+
+#pincode .frame .form .top {
+    text-align: center;
+}
+
+#pincode .frame .form .btn-pincode-center .btn-pincode-edit {
+    margin-top: 10%;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    width: 180px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    font-family: Meiryo;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/btn_bg3.png") no-repeat 0 0;
+    background-size: 100% auto;
+}
+
+#pincode .frame .form .btn-pincode-center-again .btn-pincode-edit-again {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    width: 180px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    font-family: Meiryo;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/btn-bg4.png") no-repeat 0 0;
+    background-size: 100% auto;
+}
+
+span {
+    color: red;
+}

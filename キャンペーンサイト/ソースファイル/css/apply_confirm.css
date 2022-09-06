@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'ＪＫゴシックＭ';
+    src: url("../font/JKG-M_3.ttf");
+}
+
+#apply_confirm .frame .form .applyTop {
+    text-align: center;
+}
+
+#apply_confirm .frame .form .box {
+    position: relative;
+}
+
+#apply_confirm .frame .form .bg {
+    text-align: center;
+    /* height:450px; */
+    height: 350px;
+}
+
+#apply_confirm .frame .form .box h2 {
+    position: absolute;
+    /* bottom: 80%; */
+    bottom: 78%;
+    left: 18%;
+}
+
+#apply_confirm .frame .form .box .texts {
+    font-size: 20px;
+}
+
+#apply_confirm .frame .form .box .texts .text {
+    position: absolute;
+    bottom: 65%;
+    left: 30px;
+}
+
+#apply_confirm .frame .form .box .texts .text2 {
+    position: absolute;
+    bottom: 55%;
+    left: 30px;
+}
+
+#apply_confirm .frame .form .box .texts .text3 {
+    position: absolute;
+    bottom: 45%;
+    left: 27%;
+}
+
+#apply_confirm .frame .form .btn-apply-center .btn-top {
+    left: 180px;
+    top: 1200px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 160px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    font-family: Meiryo;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/btn_bg3.png") no-repeat 0 0;
+    background-size: 100% auto;
+}

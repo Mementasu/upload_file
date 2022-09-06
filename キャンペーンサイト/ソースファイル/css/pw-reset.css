@@ -1,0 +1,78 @@
+    #pw-reset .frame .header {
+        text-align: center;
+    }
+    
+    #pw-reset .frame .form .box .bg {
+        position: relative;
+    }
+    
+    #pw-reset .frame .form .new-pw-text .text {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 19px;
+        position: absolute;
+        top: 23%;
+        left: 8%
+    }
+    
+    #pw-reset .frame .form .new-pw-text .pw-div .newpw {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+    #pw-reset .frame .form .new-pw-text .pw-div .pswd {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+    #pw-reset .frame .form .new-pw-text .pw-div .pswd_verify {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+    #pw-reset .frame .form .new-pw-text .pw-div .password {
+        font-size: 26px;
+    }
+    
+    #pw-reset .frame .form .new-pw-text .pw-div .password_verify {
+        font-size: 26px;
+    }
+    
+    #pw-reset .frame .form .btn-pw-reset-center {
+        margin-top: 20%;
+    }
+    
+    #pw-reset .frame .form .btn-pw-reset-center .btn-pw-reset {
+        margin-top: 10%;
+        text-align: center;
+        cursor: pointer;
+        display: block;
+        width: 180px;
+        height: 60px;
+        border: none;
+        text-align: center;
+        font-family: Meiryo;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        background: url("../img/btn_bg3.png") no-repeat 0 0;
+        background-size: 100% auto;
+    }
+    
+    #pw-reset .frame .pw-reset2 .box .bg {
+        position: relative;
+    }
+    
+    #pw-reset .frame .pw-reset2 .box .box_text {
+        position: absolute;
+        top: 26%;
+        left: 13%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    #pw-reset .frame .pw-reset2 .top {
+        text-align: center;
+    }

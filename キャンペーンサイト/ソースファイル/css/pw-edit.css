@@ -1,0 +1,119 @@
+#pw-edit .frame .form .header {
+    text-align: center;
+}
+
+#pw-edit .frame .form .failed {
+    text-align: center;
+}
+
+#pw-edit .frame .form .www {
+    color: red;
+    font-weight: bolder;
+}
+
+#pw-edit .frame .form .error {
+    color: red;
+    font-weight: bolder;
+}
+
+#pw-edit .frame .form .box {
+    position: relative;
+}
+
+#pw-edit .frame .form .box .bg {
+    position: relative;
+    width: 360px;
+    padding: 5px
+}
+
+#pw-edit .frame .form .box .p {
+    position: absolute;
+    top: 18%;
+    left: 3%;
+    font-weight: bold;
+}
+
+#pw-edit .frame .form .box .p2 {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+#pw-edit .frame .form .form-group {
+    margin-top: 5%
+}
+
+#pw-edit .frame .form .form-group .input_box {
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+#pw-edit .frame .form .form-group .mail[type="email"] {
+    width: 300px;
+    height: 25px;
+    font-size: 1.2em;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#pw-edit .frame .form .form-group .pinCode[type="pinCode"] {
+    width: 330px;
+    height: 25px;
+    font-size: 1.2em;
+    margin-left: 2%;
+}
+
+#pw-edit .frame .form .sita {
+    margin-top: 40%
+}
+
+#pw-edit .frame .form .top {
+    margin-top: 10%;
+}
+
+#pw-edit .frame .form .sita .btn-pw-center .btn-pw-edit {
+    margin-top: 10%;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    width: 180px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    font-family: Meiryo;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/btn_bg3.png") no-repeat 0 0;
+    background-size: 100% auto;
+}
+
+#pw-edit .frame .form .sita .btn-pw-center .btn-pw-edit-back {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    width: 180px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    font-family: Meiryo;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/btn-bg4.png") no-repeat 0 0;
+    background-size: 100% auto;
+}
+
+#pw-edit .frame .form .top {
+    text-align: center;
+}
+
+span {
+    color: red;
+}
